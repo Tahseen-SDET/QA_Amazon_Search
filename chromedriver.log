@@ -1,0 +1,235 @@
+[1695720082.346][INFO]: Starting ChromeDriver 117.0.5938.92 (67649b10b92bb182fba357831ef7dd6a1baa5648-refs/branch-heads/5938_62@{#14}) on port 18135
+[1695720082.346][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1695720082.862][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1695720082.866][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1695720082.867][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1695720082.871][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\TAHSEEN\AppData\Local\Temp\scoped_dir16580_1408585370" data:,
+[1695720083.526][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1695720083.545][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "117.0.5938.92",
+      "chrome": {
+         "chromedriverVersion": "117.0.5938.92 (67649b10b92bb182fba357831ef7dd6a1baa5648-refs/branch-heads/5938_62@{#14})",
+         "userDataDir": "C:\\Users\\TAHSEEN\\AppData\\Local\\Temp\\scoped_dir16580_1408585370"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56234"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "866da0cff87f665bb24eeb61d610c622"
+}
+[1695720083.798][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND MaximizeWindow {
+}
+[1695720083.798][INFO]: Waiting for pending navigations...
+[1695720083.804][INFO]: Done waiting for pending navigations. Status: ok
+[1695720083.939][INFO]: Waiting for pending navigations...
+[1695720083.944][INFO]: Done waiting for pending navigations. Status: ok
+[1695720083.944][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE MaximizeWindow {
+   "height": 818,
+   "width": 1496,
+   "x": -6,
+   "y": -6
+}
+[1695720083.952][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND SetTimeouts {
+   "implicit": 5000
+}
+[1695720083.952][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE SetTimeouts
+[1695720083.958][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND Navigate {
+   "url": "https://www.amazon.in/"
+}
+[1695720083.958][INFO]: Waiting for pending navigations...
+[1695720083.960][INFO]: Done waiting for pending navigations. Status: ok
+[1695720084.426][INFO]: Waiting for pending navigations...
+[1695720086.186][INFO]: Done waiting for pending navigations. Status: ok
+[1695720086.186][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE Navigate
+[1695720086.191][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND GetUrl {
+}
+[1695720086.191][INFO]: Waiting for pending navigations...
+[1695720086.197][INFO]: Done waiting for pending navigations. Status: ok
+[1695720086.204][INFO]: Waiting for pending navigations...
+[1695720086.207][INFO]: Done waiting for pending navigations. Status: ok
+[1695720086.207][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE GetUrl "https://www.amazon.in/"
+[1695720086.214][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#twotabsearchtextbox"
+}
+[1695720086.214][INFO]: Waiting for pending navigations...
+[1695720086.216][INFO]: Done waiting for pending navigations. Status: ok
+[1695720086.232][INFO]: Waiting for pending navigations...
+[1695720086.248][INFO]: Done waiting for pending navigations. Status: ok
+[1695720086.248][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "C6B85AA5ABB19C7BEE2BA7AE5F8E2520_element_53"
+}
+[1695720086.261][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND TypeElement {
+   "id": "C6B85AA5ABB19C7BEE2BA7AE5F8E2520_element_53",
+   "text": "laptop",
+   "value": [ "l", "a", "p", "t", "o", "p" ]
+}
+[1695720086.261][INFO]: Waiting for pending navigations...
+[1695720086.265][INFO]: Done waiting for pending navigations. Status: ok
+[1695720086.419][INFO]: Waiting for pending navigations...
+[1695720086.423][INFO]: Done waiting for pending navigations. Status: ok
+[1695720086.423][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE TypeElement
+[1695720086.427][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='nav-search-submit-button']"
+}
+[1695720086.427][INFO]: Waiting for pending navigations...
+[1695720086.428][INFO]: Done waiting for pending navigations. Status: ok
+[1695720086.451][INFO]: Waiting for pending navigations...
+[1695720086.465][INFO]: Done waiting for pending navigations. Status: ok
+[1695720086.465][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "C6B85AA5ABB19C7BEE2BA7AE5F8E2520_element_55"
+}
+[1695720086.471][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND ClickElement {
+   "id": "C6B85AA5ABB19C7BEE2BA7AE5F8E2520_element_55"
+}
+[1695720086.471][INFO]: Waiting for pending navigations...
+[1695720086.473][INFO]: Done waiting for pending navigations. Status: ok
+[1695720086.583][INFO]: Waiting for pending navigations...
+[1695720088.778][INFO]: Done waiting for pending navigations. Status: ok
+[1695720088.778][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE ClickElement
+[1695720088.785][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND FindElement {
+   "using": "xpath",
+   "value": "(//span[@class='a-size-medium a-color-base a-text-normal'])[1]"
+}
+[1695720088.785][INFO]: Waiting for pending navigations...
+[1695720088.790][INFO]: Done waiting for pending navigations. Status: ok
+[1695720088.835][INFO]: Waiting for pending navigations...
+[1695720088.848][INFO]: Done waiting for pending navigations. Status: ok
+[1695720088.848][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "35B93E05EBE78EE092DCF5B842F56F74_element_298"
+}
+[1695720088.871][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND GetElementText {
+   "id": "35B93E05EBE78EE092DCF5B842F56F74_element_298"
+}
+[1695720088.871][INFO]: Waiting for pending navigations...
+[1695720088.908][INFO]: Done waiting for pending navigations. Status: ok
+[1695720088.932][INFO]: Waiting for pending navigations...
+[1695720088.934][INFO]: Done waiting for pending navigations. Status: ok
+[1695720088.934][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE GetElementText "HP Laptop 15s, AMD Ryzen 3 5300U, 15.6-inch (39.6 cm), FHD, 8GB DDR4, 512GB SSD, AMD Radeon Graphics, Thin & Light, Dual Speakers (Win 11, MSO 2019, Silver, 1.69 kg), eq2143AU"
+[1695720088.941][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND FindElement {
+   "using": "link text",
+   "value": "Electronics"
+}
+[1695720088.941][INFO]: Waiting for pending navigations...
+[1695720088.943][INFO]: Done waiting for pending navigations. Status: ok
+[1695720088.974][INFO]: Waiting for pending navigations...
+[1695720088.975][INFO]: Done waiting for pending navigations. Status: ok
+[1695720088.975][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "35B93E05EBE78EE092DCF5B842F56F74_element_71"
+}
+[1695720088.982][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND ClickElement {
+   "id": "35B93E05EBE78EE092DCF5B842F56F74_element_71"
+}
+[1695720088.982][INFO]: Waiting for pending navigations...
+[1695720088.985][INFO]: Done waiting for pending navigations. Status: ok
+[1695720089.204][INFO]: Waiting for pending navigations...
+[1695720093.553][INFO]: Done waiting for pending navigations. Status: ok
+[1695720093.553][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE ClickElement
+[1695720093.559][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND GetUrl {
+}
+[1695720093.559][INFO]: Waiting for pending navigations...
+[1695720093.562][INFO]: Done waiting for pending navigations. Status: ok
+[1695720093.578][INFO]: Waiting for pending navigations...
+[1695720093.582][INFO]: Done waiting for pending navigations. Status: ok
+[1695720093.582][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE GetUrl "https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics"
+[1695720093.587][INFO]: [866da0cff87f665bb24eeb61d610c622] COMMAND CloseWindow {
+}
+[1695720093.764][INFO]: [866da0cff87f665bb24eeb61d610c622] RESPONSE CloseWindow [  ]

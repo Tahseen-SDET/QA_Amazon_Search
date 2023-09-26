@@ -1,12 +1,16 @@
 
 package apTests;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 //Selenium Imports
 import java.util.logging.Level;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -36,7 +40,7 @@ public class TestCases {
 
         // Set browser to maximize and wait
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5, 10));
 
     }
 
@@ -48,9 +52,40 @@ public class TestCases {
     }
 
     public void testCase01() {
-        System.out.println("Start Test case: testCase01");
-        driver.get("https://www.google.com");
-        System.out.println("end Test case: testCase01");
+        System.out.println("Start Test case: testCase01: Verify if directed to amazon homepage");
+        driver.get("https://www.amazon.in/");
+        if(driver.getCurrentUrl().contains("amazon")) {
+            System.out.println("testcase1: Verify if directed to amazon homepage: Passed");
+
+        }
+
+        System.out.println("end Test case: testCase01: Passed");
+    }
+
+        public void testCase02() {
+        System.out.println("Start Test case: testCase02: Verify the search functionality");
+        WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
+        searchBox.sendKeys("laptop");
+        WebElement searchButton = driver.findElement(By.xpath("//*[@id='nav-search-submit-button']"));
+        searchButton.click();
+        WebElement laptop = driver.findElement(By.xpath("(//span[@class='a-size-medium a-color-base a-text-normal'])[1]"));
+        if (laptop.getText().contains("Laptop")) {
+            System.out.println("testcase2: Verify the search functionality: Passed");
+        }
+        System.out.println("end Test case: testCase02: Passed");
+    }
+
+
+        public void testCase03() {
+        System.out.println("Start Test case: testCase03: Verify the navigation menu");
+        WebElement navElem = driver.findElement(By.linkText("Electronics"));
+        navElem.click();
+        if(driver.getCurrentUrl().contains("electronics")) {
+            System.out.println("testcase3: Verify the navigation menu: Passed");
+
+        }
+
+        System.out.println("end Test case: testCase01: Passed");
     }
 
 }
